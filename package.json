@@ -1,0 +1,36 @@
+{
+  "name": "project-x-semantic",
+  "version": "1.0.0",
+  "description": "Sample Material UI React Project",
+  "main": "client/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hraynaud/project-x-semantic.git"
+  },
+  "scripts": {
+    "devserve": "webpack-dev-server -d --config webpack.dev.config.js --content-base public/ --progress --colors",
+    "devbuild": "webpack -d --config webpack.dev.config.js --profile --progress --colors"
+  },
+  "author": "Herby Raynaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hraynaud/project-x-semantic/issues"
+  },
+  "homepage": "https://github.com/hraynaud/project-x-semantic#readme",
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "semantic-ui-react": "^0.56.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
